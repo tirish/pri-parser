@@ -1,7 +1,7 @@
 {
-  "name": "pri-reader",
+  "name": "pri-parser",
   "version": "1.0.0",
-  "description": "Read resource data from pri file",
+  "description": "Parse PRI files using makepri.exe",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
