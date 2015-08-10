@@ -1,1 +1,3 @@
-module.exports = require('./lib/read-pri-file');
+module.exports ={
+    parse: require('./lib/read-pri-file')
+};

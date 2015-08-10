@@ -2,7 +2,7 @@ var path = require('path');
 
 var input = path.resolve('./resources.pri');
 
-var read_pri = require('./lib/read-pri-file');
+var pri = require('./index');
 
 var config = {
 
@@ -15,7 +15,7 @@ var config = {
     verbose: false,
     uriOnly: true
 };
-read_pri(input,config,function(data){
+pri.parse(input,config,function(data){
 
     console.log(JSON.stringify(data,null,2));
 });
