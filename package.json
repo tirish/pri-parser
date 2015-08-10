@@ -1,6 +1,6 @@
 {
   "name": "pri-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse PRI files using makepri.exe",
   "main": "index.js",
   "scripts": {
