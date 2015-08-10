@@ -10,7 +10,15 @@
     "pri",
     "resources"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tirish/pri-parser.git"
+  },
   "author": "Tommy Irish <tirish.dev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tirish/pri-parser/issues"
+  },
+  "homepage": "https://github.com/tirish/pri-parser",
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.10.1",
